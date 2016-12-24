@@ -26,12 +26,6 @@ numOfHiddenState = 4
 futureReturnPeriod = 1
 
 data["Return"] = data["USD (AM)"].diff(futureReturnPeriod).shift(-futureReturnPeriod)/data["USD (AM)"]
-data["Return0"] = data["USD (AM)"].diff(1).shift(-1)/data["USD (AM)"]
-data["Return1"] = data["Return0"].shift(1)
-data["Return2"] = data["Return0"].shift(2)
-data["Return3"] = data["Return0"].shift(3)
-data["Return4"] = data["Return0"].shift(4)
-data["Return5"] = data["Return0"].shift(5)
 data["5R"] = pandas.rolling_apply(data['USD (AM)'], 5, getTrendR)
 data["10R"] = pandas.rolling_apply(data['USD (AM)'], 10, getTrendR)
 data["20R"] = pandas.rolling_apply(data['USD (AM)'], 20, getTrendR)
