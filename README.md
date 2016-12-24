@@ -6,7 +6,7 @@ indicators and Hidden Markov Model to detect the possible hidden state of the ma
 Trend following strategy need to use assets which have high momentum. I choose
 XAUUSD since the market has been driven most by fundamental investments.
 
-# Hidden State Detecting Result
+# Hidden State Detecting
   * Hidden state 0 is identified as up Trend. It has weaker performance after 2013 since the market is bearish compared to before   
 
   * Hidden state 1 is identified as down Trend. Before 2013 it swing up and down because it was a big bull market to gold. However
@@ -22,5 +22,5 @@ XAUUSD since the market has been driven most by fundamental investments.
 
 ![hidden states](decomp.png)
 
-# Long Short Result Using Predicted Hidden State
+# Long Short Using Predicted Hidden State
 ![PNL](PNL.png)
