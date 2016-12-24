@@ -15,7 +15,7 @@ XAUUSD since the market has been driven most by fundamental investments.
   * Hidden state 2 is identified as no specific trend. The Gaussian Markov Model has big variance in estimated trend. Do not enter any
   trader during this state.
 
-  * Hidden state 3 is identified as reversion trend. It has more unclear trend in 20 day time horizon. However gradually have
+  * Hidden state 3 is identified as reversion trend. It has more unclear trend in 20-days time horizon. However gradually have
   clearer upward trending as we move closer to the current day
 
 
