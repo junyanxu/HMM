@@ -1,4 +1,4 @@
-# XAUUSD HMM Trend Following Strategy
+# XAUUSD HMM Trend-Follow Strategy
 
 This is a strategy using linear regression across multiple time horizon as
 indicators and Hidden Markov Model to detect the possible hidden state of the market.
