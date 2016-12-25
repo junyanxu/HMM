@@ -22,7 +22,7 @@ XAUUSD and NYMEX Crude Oil since the market has been driven most by fundamental 
 
 ![hidden states](decomp.png)
 
-## Oil
+## CME_CL1(Crude Oil)
 
 * Hidden state 0 is identified as up-trend.   
 
