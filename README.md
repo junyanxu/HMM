@@ -42,4 +42,4 @@ XAUUSD and NYMEX Crude Oil since the market has been driven most by fundamental 
 ![PNL](PNL.png)
 
 ## Oil
-![PNL](Oil_OIL.png)
+![PNL](OIL_PNL.png)
