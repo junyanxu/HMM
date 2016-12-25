@@ -6,6 +6,9 @@ indicators and Hidden Markov Model to detect the possible hidden state of the ma
 Trend following strategy need to use assets which have high momentum. I choose
 XAUUSD and NYMEX Crude Oil since the market has been driven most by fundamental investments.
 
+As a comparison. SP500 lacks of specific trend compare to commodities, which does not produce a very robust result
+(The 2009 stock flash crash gives a pattern which can't be learned by HMM).
+
 # Hidden State Detection
 ## XAUUSD
 
