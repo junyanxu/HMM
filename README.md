@@ -20,7 +20,7 @@ XAUUSD and NYMEX Crude Oil since the market has been driven most by fundamental 
   * Hidden state 3 is identified as reverse-trend. It has more unclear trend in 20-days time horizon. However gradually have
   clearer upward trending as we move closer to the current day
 
-![hidden states](decomp.png)
+![hidden states](decomp_GOLD.png)
 
 ## CME_CL1(Crude Oil)
 
@@ -36,10 +36,27 @@ XAUUSD and NYMEX Crude Oil since the market has been driven most by fundamental 
 
 ![hidden states](decomp_OIL.png)
 
+## SP500
+
+* Hidden state 0 is identified as no-trend.   
+
+* Hidden state 1 is identified as up-trend.
+
+* Hidden state 2 is identified as reverse_up_trend.
+
+* Hidden state 3 is identified as no-trend.
+
+* Hidden state 4 is identified as down_trend.
+
+![hidden states](decomp_SP500.png)
+
 # Long Short Using Predicted Hidden State
 
 ## XAUUSD
-![PNL](PNL.png)
+![PNL](PNL_GOLD.png)
 
 ## CME_CL1
-![PNL](OIL_PNL.png)
+![PNL](PNL_OIL.png)
+
+## SP500
+![PNL](PNL_SP500.png)
